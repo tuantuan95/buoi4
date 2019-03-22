@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            th,
+            td {
+                border: 1px #ccc solid;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+                <tr>
+                    <th>1</th>
+                    <td>A</td>
+                    <td>4</td>
+            
+        <button onclick="addRowInTable()"> Click me</button>
+        <script>
+        function addRowInTable() {
+            var tableBody = document.getElementById('table-body');
+            tableBody.innerHTML = tableBody.innerHTML + '<tr><th>2</th><td>B</td><td>5</td>';
+                for (var i = 1; i < 10; i = i + 1) {
+                    tableBody.innerHTML += "<tr><th>" + (i + 1) + "</th><td>C</td><td>6</td></tr>"
+                }
+
+
+            }
+        </script>
+        </tbody>
+    </table>
+    </body>
+</html>

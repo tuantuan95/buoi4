@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+</html>
+
+<body>
+    <h1>Hello</h1>
+    <img id="img" src="./20180226-115234-kieu-trinh.jpg" width="50%" alt="">
+    <button onclick="doiAnh()">Doi Anh</button>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <script>
+        function doiAnh(){
+        $(document).ready(function() {
+        $("#img").attr('src', './54434118_2026385330806074_5552038347330813952_n_dlnl.jpg');
+        $("h1").click(function () {
+            console.log('cnakscbakjc');
+            $("h1").attr('style', 'color: red;');
+        })
+        
+    });
+}
+    </script>
+
+    
+</body>

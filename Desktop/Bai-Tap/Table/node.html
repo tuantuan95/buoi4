@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="div1">
+<p id="p1">Paragraph 1</p>
+<p id="p2">Paragraph 2</p>
+</div>
+<button onclick="addHeadingToDiv()">Add Heading To Div</button>
+<script>
+    function addHeadingToDiv() {
+        var paragraph = document.createElement("h1");
+        var node = document.createTextNode("Day la H1");
+        paragraph.appendChild(node);
+        var element = document.getElementById("div1");
+        //element.appendChild(paragraph);
+        element.before()
+    }
+</script>
+
+</body>
+</html>

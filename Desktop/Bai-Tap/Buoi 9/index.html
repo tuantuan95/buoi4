@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function doichu(ten) {
+               var loiChao = 'Toi la ' + ten;
+               document.getElementById('tieu-de').innerHTML= loiChao;
+               abc();
+            }
+        </script>
+        </head>
+    <body>
+        <h1 id="tieu-de">Hello World</h1>
+        <button type="button" onclick="doiChu('')">Click me!!</button>
+        <button onclick="doiChu('Tuan')">anh Tuan</button>
+        <button onclick="doiChu('Viet')">anh Viet</button>
+        <button onclick="doiMau('blue')">Doi Qua Xanh Duong</button>
+        <button onclick="doiMau('green')">Doi Qua Xanh La</button>
+        <img src="https://media.wired.com/photos/59330ed94cd5ce6f96c0c2c5/master/pass/gallery3.jpg" alt="than-sam" height="100%" width="100%" id="than-sam">
+    
+        <script>
+            function doiAnh() {
+                var imageElement = document.getElementById('than-sam');
+                imageElement.src = 'http://amethysthobby.com/wp-content/uploads/2017/08/83213-13.jpg';
+            }
+
+        </script>
+        <button onclick="doiAnh()">doi Anh</button>
+
+
+    </body>
+</html>

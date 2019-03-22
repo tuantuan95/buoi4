@@ -1,0 +1,28 @@
+code {
+    background-color: rgb(255, 166, 0);
+}
+
+.box {
+    height: 100px;
+    width: 50%;
+    background-color: black;
+}
+
+@media only screen and (min-width: 767px) {
+    body {
+        background-color: blue;
+    }
+
+    .box {
+        /* width: 100; */
+    }
+
+    .col-sm-6{
+        width: 50%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .col-md-4 {
+        width: 
+    }
+}

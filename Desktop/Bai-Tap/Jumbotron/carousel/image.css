@@ -1,0 +1,28 @@
+.image000 {
+    height: 450px;
+    width: 100%;
+
+    background-repeat: no-repeat;
+    background-position: center -100px;
+    background-size: cover;
+    background-attachment: scroll;
+  }
+  .image000-First {
+      width: 100%;
+      background-image: url('http://3.bp.blogspot.com/-JVvD0ejE5Oo/UqgomWpIsxI/AAAAAAAABuA/W22o5h96l1U/s1600/hinh-nen-may-tinh-hd-2.jpg');
+      background-position: center -170px
+  }
+  .image000-Second {
+      background-image: url('http://baoquangninh.com.vn/dataimages/201611/original/images890021_a.jpg');
+      background-position: center -170px
+  }
+  .image000-Third {
+      background-image: url('http://thuthuatphanmem.vn/uploads/2018/06/18/hinh-nen-laptop-full-hd-doi-nui-trai-day-nhung-bong-hoa-mau-_61iaM_034803441.jpg')
+  }
+  .img {
+      border-radius: 50%;
+      -moz-boder-radius: 50%;
+      -webkit-boder-radius: 50%;
+      background-image: url('https://kenh14cdn.com/2018/4/19/photo-1-15241347469441753918257.jpg');
+      
+  }

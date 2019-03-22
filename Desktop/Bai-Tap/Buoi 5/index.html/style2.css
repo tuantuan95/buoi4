@@ -1,0 +1,49 @@
+.one,
+.two,
+.three {
+    height: 100px;
+    width: 100%;
+}
+
+.one {
+    background-color: firebrick
+}
+.two {
+    background-color: forestgreen
+}
+.three {
+    background-color: darkorange
+}
+.seven {
+    background-color:blueviolet;
+    height: 300px;
+    width: 100%
+}
+@media only screen and (min-width: 768px) {
+    .one
+    .two {
+        width: 50%;
+    
+    }
+    .hihi {
+        display: flex;
+    }
+    .for,
+    .five,
+    .six {
+        width: 33.3%;
+        height: 100px;
+    }
+    .seven {
+        display: none
+    }
+    .for {
+        background-color: orangered
+    }
+    .five {
+        background-color: black
+    }
+    .six {
+        background-color: purple
+    }  
+}
